@@ -17,7 +17,7 @@ const requestConfig = {
     // y damos los headers
     headers: {
                 
-        "Content-Type" : "application/jsonn"
+        "Content-Type" : "application/json"
             
     },
 }
