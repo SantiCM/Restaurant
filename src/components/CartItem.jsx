@@ -1,6 +1,5 @@
 import { formatting } from "../util/formatting"
 
-
 export const CartItem = ( { name, quantity, price, onIncrease, onDecrease } ) => {
 
   
@@ -14,9 +13,9 @@ export const CartItem = ( { name, quantity, price, onIncrease, onDecrease } ) =>
 
             </p>
 
-            <p className="cart-item-action">
+            <p className="cart-item-actions">
 
-                <button onClick={onDecrease}>-</button>
+                <button  onClick={onDecrease}>-</button>
 
                 <span>{quantity}</span>
 
